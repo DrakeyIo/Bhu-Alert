@@ -570,7 +570,7 @@ if "result" in st.session_state and st.session_state.result:
 """)
 
     # ---- Emergency contacts (only shown when risk is High or Very High) ----
-    if score >= 60:
+    if score >= 30:
         st.divider()
         st.subheader("\U0001f6a8 Emergency Contacts")
         e1, e2, e3 = st.columns(3)
