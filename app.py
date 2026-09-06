@@ -421,8 +421,8 @@ with st.sidebar:
     st.divider()
 
     # Number input widgets - user types or clicks +/- to change values
-    lat = st.number_input("Latitude",  value=25.6700, format="%.4f", step=0.001)
-    lon = st.number_input("Longitude", value=94.1100, format="%.4f", step=0.001)
+    lat = st.number_input("Latitude",  value=25.6700,max_value=90.0000,min_value=-90.0000, format="%.4f", step=0.001)
+    lon = st.number_input("Longitude", value=94.1100,max_value=180.0000,min_value=-180.0000, format="%.4f", step=0.001)
 
     # A button that returns True the moment it is clicked, False otherwise
     go = st.button("\u26a1 Run Assessment", type="primary", use_container_width=True)
