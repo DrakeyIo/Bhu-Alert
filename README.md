@@ -1,6 +1,23 @@
 # ⛰️ BhuAlert
 
-> Real-time landslide risk assessment and hazard-avoiding route advisory system built with Streamlit, XGBoost, and OSRM. Developed for SIH 2026.
+<p align="center">
+  <img src="http://img.lrp.pp.ua/u/36n9pa.png" width="110" alt="BhuAlert Logo"/>
+</p>
+
+<p align="center">
+  <strong>Real-time landslide risk assessment and hazard-avoiding route advisory system.</strong><br>
+  <em>Smart India Hackathon (SIH 2026) Prototype</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/>
+  <img src="https://img.shields.io/badge/XGBoost-118833?style=for-the-badge&logo=xgboost&logoColor=white" alt="XGBoost"/>
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/>
+  <img src="https://img.shields.io/badge/Leaflet%20%2F%20Folium-77B829?style=for-the-badge&logo=leaflet&logoColor=white" alt="Folium"/>
+  <img src="https://img.shields.io/badge/OSRM%20Routing-7EBC6F?style=for-the-badge&logo=openstreetmap&logoColor=white" alt="OSRM"/>
+  <img src="https://img.shields.io/badge/SIH-2026-blueviolet?style=for-the-badge" alt="SIH 2026"/>
+</p>
 
 ---
 
@@ -43,14 +60,18 @@ Instead of relying on heavy, pre-downloaded GIS files, the app dynamically pulls
 
 ## Tech Stack
 
-| Component | Tool / Library | Role |
-|---|---|---|
-| **Web Framework** | Streamlit | UI, inputs, metric cards, and layout |
-| **Machine Learning** | XGBoost, Scikit-Learn | Classification pipeline, scaling, and inference |
-| **Data Handling** | Pandas, NumPy | Data manipulation and feature formatting |
-| **Mapping** | Folium, Streamlit-Folium | Interactive map rendering |
-| **Routing** | OSRM (Open Source Routing Machine) | Driving directions and road geometry |
-| **Data APIs** | Open-Meteo (Elevation & Forecast) | Live elevation, rain, and soil moisture |
+| Technology | Badge / Logo | Role |
+|---|:---:|---|
+| **Python** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Core programming language |
+| **Streamlit** | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) | Web application framework and dashboard UI |
+| **XGBoost** | ![XGBoost](https://img.shields.io/badge/XGBoost-118833?style=flat-square&logo=xgboost&logoColor=white) | Gradient-boosted decision trees for hazard classification |
+| **Scikit-Learn** | ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) | Data preprocessing pipeline (`StandardScaler`, `OneHotEncoder`) |
+| **Pandas** | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) | Data manipulation and tabular feature matrix handling |
+| **NumPy** | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) | Numerical operations and array math |
+| **Folium** | ![Folium](https://img.shields.io/badge/Folium-77B829?style=flat-square&logo=leaflet&logoColor=white) | Leaflet.js-based interactive map visualization |
+| **OSRM** | ![OSRM](https://img.shields.io/badge/OSRM-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white) | Turn-by-turn road network routing engine |
+| **Open-Meteo** | ![Open-Meteo](https://img.shields.io/badge/Open--Meteo-007ACC?style=flat-square&logo=cloud&logoColor=white) | Free live elevation, forecast rain, and soil moisture APIs |
+| **Google Maps** | ![Google Maps](https://img.shields.io/badge/Google%20Maps-4285F4?style=flat-square&logo=googlemaps&logoColor=white) | Roadmap tile imagery for clean driving route display |
 
 ---
 
