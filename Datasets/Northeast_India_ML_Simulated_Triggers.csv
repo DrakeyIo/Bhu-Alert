@@ -1,0 +1,352 @@
+admin_division_name,gazeteer_closest_point,location_description,latitude,longitude,rain_report (trigger),inclination,soil_moisture,temperature
+Manipur,Phek,"Chingai-Kuingai(Quingai) route (16 kms), Chingai subdivision, Ukhrul district, Manipur",25.3098633,94.48214677,downpour,36.24,0.907,24.0
+Nagaland,Kohima,"National Highway 29 Between Patkai Bridge And Kukidolong, Nagaland",25.7658,93.9413,rain,53.52,0.848,21.6
+Nagaland,Kohima,"National Highway 2 Near Meriema Village, 10 Km Away From Kohima",25.7131,94.0885,rain,46.96,0.699,20.8
+Manipur,Kakching,between Moltuk to New Songjang village,24.1419,94.1078,continuous_rain,42.96,0.671,31.9
+Nagaland,Kohima,"National Highway 2 Near Phesama Village Close To Kisama Naha Heritage Site, Kohima District, Nagaland",25.616,94.1167,downpour,29.68,0.843,23.9
+Nagaland,Kohima,"Sahong, Tabu and Pani village under Tadubi police station of Senapati district, NH-39",25.4769,94.1351,downpour,29.68,0.658,29.7
+Assam,Maibong,Lumding-Badarpur section in North Cachar Hills district,25.5215,93.1645,downpour,26.74,0.826,23.1
+Meghalaya,Nongstoin,"Ishok Chingphu(?), Bishnupur, Assam",25.8833,91.2,downpour,50.99,0.932,28.2
+Nagaland,Kohima,"NH-39 in Karong area, Manipur",25.3179,94.0462,downpour,43.03,0.823,29.1
+Assam,Lakhipur,National Highway 53 at Nungba in Tamenglong district of Manipur,24.75,93.4333,rain,46.24,0.766,27.1
+Manipur,Imphal,"Ukhrul, Manipur",25.0985,94.3619,unknown,25.62,0.843,25.7
+Sikkim,Mangan,"Bop, Sikkim",27.6163,88.6586,unknown,54.1,0.787,24.9
+Meghalaya,Shillong,"Police CID complex(?), Shillong, Meghalaya",25.5728,91.885,downpour,49.97,0.814,24.2
+Nagaland,Mon,"Techahan Ward, Mon, Nagaland, India",26.7223,95.0243,continuous_rain,31.37,0.932,31.2
+Assam,Lakhipur,The Imphal-Jiribam Section Of Nh-37 In Tamenglong District,24.7625,93.4341,continuous_rain,30.45,0.766,30.0
+Arunachal Pradesh,Itānagar,"Itanagar, Arunachal Pradesh",27.0987,93.816,continuous_rain,30.5,0.938,31.6
+Assam,Hāflong,"Paglanala village, Dholai Block, near Dwarbandh locality of the district, Cachar district (could only find district) 45 km from Silchar, Assam",25.1553,93.028,downpour,34.13,0.922,21.5
+Mizoram,Saiha,Lawngtlai,22.533,92.899,downpour,40.74,0.709,28.8
+Assam,Hāflong," between Harangajao and Mailongdisa, Assa,",25.1175,92.8573,downpour,37.96,0.671,31.3
+Sikkim,Rangpo,"NH31A, Mile 27 near Rambi",27.1761,88.5287,downpour,33.74,0.68,22.2
+Mizoram,Aizawl,"near Tuivawl(?), Aizawl-Champhai rd, Aizawl district, Mizoram",23.591,92.9296,downpour,43.36,0.655,20.8
+Sikkim,Gangtok,"Pangthang, on road b/t Gangtok and North Sikkim",27.3383,88.6069,rain,29.18,0.678,28.9
+Assam,Mahur,"Tamenglong, Manipur",24.9829,93.5063,continuous_rain,33.76,0.855,26.9
+Assam,Maibong,"Portions of NH 39, Connectin Manipur with Assam via Nagaland",25.5125,93.3613,downpour,35.99,0.671,30.1
+Manipur,Phek,"Chingai-Kuingai(Quingai) route (16 kms), Chingai subdivision, Ukhrul district, Manipur",25.31006064,94.48265093,downpour,38.68,0.746,21.7
+Assam,Mahur,"Tamei, Tamenglong district on Imphal-Tamenglong (IT) road",24.9925,93.5,downpour,48.56,0.903,29.5
+Arunachal Pradesh,Motuo,Arunachal Pradesh,28.9205,95.3429,continuous_rain,30.99,0.657,22.4
+Arunachal Pradesh,Ziro,"NH 13 10 kilometers from Old Ziro, Arunachal Pradesh, India",27.6438,93.871,downpour,40.43,0.894,22.0
+Manipur,Imphal,"Gaoilung(Gadailong) village(?), Ward 4(?), Tamenglong, Manipur",24.8286,93.5935,downpour,42.77,0.735,22.0
+Assam,North Lakhimpur,"Lakhimpur district, Bihpuria, Assam",27.2298,94.0989,downpour,26.39,0.685,29.8
+Meghalaya,Nongpoh,"Umling, Meghalaya 793102, India",25.9703,91.8584,unknown,43.23,0.859,28.0
+Meghalaya,Tura,Tura Civil Hospital,25.5145,90.2023,continuous_rain,30.12,0.839,26.3
+Meghalaya,Cherrapunji,Singtam,25.38,91.88,rain,26.95,0.913,24.3
+Assam,Guwahati,"Maighuli, Guwahati, Meghalaya",26.1548,91.7351,downpour,53.47,0.871,30.5
+Mizoram,Saiha,Saiha,22.479,92.967,downpour,53.97,0.891,24.7
+Arunachal Pradesh,Tezu,Arunachal Pradesh ,27.8965,96.1779,downpour,49.25,0.735,29.8
+Nagaland,Kohima,"Ruzapfu valley, Kikruma Village, Phek District, Nagaland",25.6682,94.1099,downpour,34.14,0.703,25.3
+Manipur,Churāchāndpur,"Holenjang, Chandel district",24.004,93.9815,continuous_rain,27.93,0.875,24.5
+Assam,Maibong,"road between Haflong and Lanka, Assam",25.5242,92.9914,downpour,45.53,0.892,25.6
+Manipur,Mayāng Imphāl,Manipur,24.6869,93.9157,downpour,38.2,0.947,23.6
+Arunachal Pradesh,Tezu,Lohit District of Arunachal Pradesh,27.9032,96.174,rain,28.66,0.774,29.0
+Nagaland,Kohima,Maram (80 km north of Imphal),25.4191,94.1079,rain,39.86,0.762,26.0
+Nagaland,Mon,"road to Oting near Longlam village, 13 km from Tizit subdivision, Mon district, Nagaland",26.8716,94.9921,downpour,26.03,0.883,22.8
+Meghalaya,Dispur,"12th Mile area at Jorabat, Meghalaya, India",26.09748244,91.8744337,unknown,52.28,0.752,30.8
+Arunachal Pradesh,Bomdila,"West Kameng, Arunachal Pradesh",27.4,92.35,downpour,32.76,0.929,24.6
+Sikkim,Gangtok,"17th mile(?), Jawaharlal Nehru Marg hwy, between Gangtok and Nathu La, Sikkim",27.3702,88.7334,downpour,44.88,0.908,26.5
+Manipur,Wāngjing,Manipur,24.3527,94.3429,downpour,34.35,0.779,30.9
+Nagaland,Tuensang,"Helipong-Chessore Road, Nagaland",26.0977,94.7499,unknown,40.6,0.875,27.5
+Arunachal Pradesh,Tezu,"road from other districts to Hawai(Tawai?) which is  on Lojit river, near Hayuliang,  Anjaw district, Arunachal Pradesh",28.0791,96.5242,downpour,41.4,0.876,21.4
+Sikkim,Gangtok,"Natl. Highway 31-A at Pani House(?), Gangtok",27.3341,88.6083,downpour,30.55,0.681,31.3
+Nagaland,Zunheboto,"New Land (""""New Colony"""")",26.0319,94.5466,continuous_rain,54.09,0.921,27.5
+Arunachal Pradesh,Naharlagun,Karsingsa block point,27.1249,93.7706,unknown,48.25,0.802,24.0
+Nagaland,Wokha,"on road between Mon and Tobu near Telangsao Hydro project , Nagaland, India",26.1677,94.2442,continuous_rain,53.18,0.898,21.7
+Arunachal Pradesh,Margherita,"Tirap , Arunachal Pradesh",27.174,95.8011,downpour,51.84,0.746,29.5
+Arunachal Pradesh,Tezu,"Endulin Nallah, Mayodia, 17-camp, 83-camp",28.4659,95.86,downpour,42.94,0.919,27.4
+Assam,Lakhipur,"NH-53 at Nungba police station, Kambirong(?), Manipur",24.7505,93.4221,downpour,52.66,0.767,26.4
+Manipur,Kohima,"15 kms from Maram, National Highway-102/A (Maram Peren road)",25.4477,94.0489,continuous_rain,27.65,0.653,30.7
+Nagaland,Mokokchūng,"Nanga, Nagaland",26.284,94.5808,continuous_rain,30.88,0.922,29.5
+Assam,Guwahati,"Lalunggaon, Guwahati,  Assam",26.149,91.7351,downpour,26.36,0.677,21.8
+Assam,Mahur,"Kaiphundai(?)-Tousem(in Assam) road, Tamenglong district, Manipur",25.0672,93.4093,downpour,34.76,0.746,23.7
+Manipur,Kakching,between Chalong and Paraolon,24.1988,94.1016,continuous_rain,36.66,0.935,23.0
+Arunachal Pradesh,Bāsār,Upper Subansiri,27.8776,94.25,downpour,33.14,0.935,28.9
+Assam,Guwahati,"Guwahati, Assam",26.1475,91.7356,downpour,49.86,0.822,20.4
+Manipur,Imphal,"Tamenglong- Khongsang Road, Manipur",24.9037,93.487,continuous_rain,35.7,0.84,26.8
+Manipur,Kohima,22 kms to 30 kms between Sangkungmai and Willong,25.4538,93.9827,continuous_rain,33.43,0.785,29.1
+Nagaland,Wokha,"Thillong Village, Doyang Along State Highway 1, Wokha To Merapani Road",26.1147,94.3864,downpour,41.28,0.738,30.5
+Sikkim,Gangtok,Rhodong village near Rhey in East Sikkim,27.3425,88.6236,rain,29.23,0.749,24.1
+Assam,Lāla,"Bilaipur, Hailakandi district, Assam, India",24.5202,92.7239,continuous_rain,49.07,0.852,29.9
+Manipur,Mahur,Tamenglong Ward No-IV,24.9818,93.5142,monsoon,27.24,0.876,21.3
+Assam,Guwahati,Noonmati,26.1985,91.7998,rain,54.61,0.887,30.2
+Nagaland,Kohima,"National Highway 29 Near Phesama Village, Nagaland",25.6269,94.1139,downpour,48.17,0.887,21.5
+Manipur,Kakching,"NH-39 at Imphal-Moreh section, Lokchao largest event",24.4279,94.0564,rain,30.96,0.677,24.8
+Assam,Sonāri,"Longlem, Nagaland",26.8727,94.9275,rain,25.17,0.798,29.6
+Arunachal Pradesh,Naharlagun,"districts Lakhimpur, Dhemaji, Golaghat, and Sonitpur, Assam province",27.0011,93.7273,downpour,49.46,0.667,21.8
+Mizoram,Aizawl,"Zembabawk, Aizawl",23.7327,92.7463,downpour,46.21,0.815,22.8
+Sikkim,Gangtok,"15 Km From Gangtok, Himalayans",27.3721,88.708,downpour,46.87,0.782,28.7
+Meghalaya,Netrakona,"Rongthragittim Songittal village, near Sibbari, South Garo Hills District, Meghalaya, India",25.203,90.5573,continuous_rain,48.14,0.916,28.6
+Nagaland,Tuensang,"Tuensang-Kohima rd, 3 km outside Tuensang, Nagaland",26.1984,94.8158,downpour,27.22,0.755,27.7
+Assam,Lāla,"Sonachirra, Karimganj district, Assam, India",24.4638,92.4943,continuous_rain,35.75,0.685,28.3
+Mizoram,Serchhīp,"road to Muanna Godown, Zuangtui, Mizoram",23.75406693,92.74128531,downpour,28.48,0.693,26.5
+Nagaland,Tuensang,"Kiphire-Tuensang rd, Nagaland",26.0814,94.803,downpour,50.89,0.878,23.0
+Nagaland,Kohima,"National Highway 2, near Kohima, Nagaland, India",25.7902,94.1318,downpour,43.7,0.835,24.1
+Manipur,Imphal,"2 km from Khongsang village(?), road between Tamenglong and Imphal or Nungba, Manipur",24.8961,93.4957,downpour,34.93,0.68,22.2
+Sikkim,Jorethang,"Takdah, West Bengal",27.0377,88.3603,downpour,26.91,0.675,30.9
+Assam,Karīmganj,"Satgarakul Village, Karimganj, Assam State",24.8669,92.3576,rain,34.33,0.86,27.0
+Nagaland,Kohima,Phesema area at National Highway 39,25.7428,93.9136,rain,34.76,0.672,24.8
+Mizoram,Thenzawl,Sailam village,23.3572,92.7878,continuous_rain,46.89,0.897,25.5
+Nagaland,Kohima,"Kisima, Nagaland",25.61560252,94.11603493,downpour,44.13,0.862,31.4
+Nagaland,Tuensang,"Shayoung Ward(?), Longleng, Nagaland",26.4333,94.8833,downpour,51.62,0.674,21.8
+Assam,Dispur,Dakhingaon,26.1314,91.7548,rain,39.17,0.675,27.0
+Nagaland,Mokokchūng,"North Point Colony, Akuluto, Nagaland, India",26.1699,94.4922,unknown,28.59,0.946,26.1
+Assam,North Lakhimpur,North Lakhimpur ,27.2333,94.1167,downpour,46.4,0.762,27.3
+Mizoram,Kolasib,"National Highway, 45 Aizwal (Mizoram)",24.1293,92.6921,rain,47.82,0.761,20.2
+Manipur,Imphal,"Ikou-Gangpijang road, near: Ikou, Saikul, and Gangpijang; Imphal India",25.03561729,94.0144205,rain,41.84,0.894,30.5
+Nagaland,Kohima,"Koide Government High School, Senapati, Manipur",25.3833,94.1884,downpour,48.13,0.934,31.2
+Assam,North Guwāhāti,Kamakhya Temple,26.1666,91.7042,continuous_rain,39.81,0.946,26.8
+Nagaland,Tuensang,"Kuthur – Huker Road Via Y Anner, Chessore, Nagaland",26.0977,94.7031,unknown,40.68,0.876,28.4
+Manipur,Kohima,"Imphal-Dimapur road  in Tadubi, Senapati district, Manipur, India",25.48,94.1383,continuous_rain,37.83,0.763,31.1
+Nagaland,Kohima,"National Highway 29 Near Phesama Village, Nagaland",25.6269,94.1139,rain,25.76,0.675,28.5
+Assam,Lakhipur,Lakhipur,24.7979,92.9974,continuous_rain,28.24,0.883,21.8
+Assam,Guwahati,Garchuk,26.1044,91.7082,rain,25.94,0.818,26.9
+Manipur,Imphal,"Namkaoluang village, Tamenglong-Sangrung (Khongsang) road, NH-53, Manipur",24.9336,93.8275,monsoon,44.09,0.777,27.3
+Nagaland,Tuensang,"Yakshu, Nagaland",26.4205,94.9731,rain,34.43,0.922,25.1
+Arunachal Pradesh,Naharlagun,Itanagar,27.1034,93.6885,downpour,40.26,0.683,28.8
+Arunachal Pradesh,Bomdila,"East Kameng, Arunachal Pradesh",27.4888,93.0153,downpour,52.23,0.798,31.2
+Manipur,Mawlaik,"Tuitung village, Khengjoi",23.899,94.1434,rain,32.48,0.653,31.1
+Manipur,Imphal,"Imphal-Ukhrul sector of National Highway 102, Manipur, India",25.0118,94.3136,monsoon,37.31,0.791,25.4
+Arunachal Pradesh,Pāsighāt,"East Siang, Arunachal Pradesh",28.1193,95.1645,rain,47.67,0.667,21.4
+Manipur,Mahur,Tousem,25.1019,93.3729,continuous_rain,31.86,0.686,31.8
+Sikkim,Gangtok,"Singtam-Mangan rd, Sikkim",27.3773,88.559,downpour,27.31,0.685,30.1
+Nagaland,Tuensang,"Tuensang, Nagaland",26.2363,94.8133,monsoon,33.69,0.845,21.5
+Nagaland,Kohima,Phesama,25.6278,94.1051,continuous_rain,29.84,0.874,31.1
+Mizoram,Serchhīp,"Hunthar Veng, Mizoram",23.74182634,92.7141905,downpour,52.89,0.825,30.4
+Tripura,Sabrūm,Sabroom,23.0137,91.7174,downpour,49.24,0.939,26.2
+Sikkim,Gangtok,"Near Changu Lake, 15Km Away From Nathu La, On India-China Border In Eastern Sikkim",27.3765,88.7628,downpour,44.0,0.762,27.1
+Nagaland,Tuensang,"Noklak-Tuensang road, Nagaland",26.222,94.9152,downpour,51.14,0.736,24.8
+Nagaland,Zunheboto,"Zunheboto, Nagaland",26.0137,94.5163,continuous_rain,49.11,0.911,20.7
+Assam,Dispur,Narakasur,26.1407,91.7645,continuous_rain,30.6,0.717,24.0
+Assam,Lakhipur,NH 37 at Awang Khul ,24.808,93.117,rain,51.78,0.939,29.6
+Meghalaya,Tura,"Nakham Bazaar, Tura, Meghalaya",25.5114,90.215,downpour,41.18,0.654,20.1
+Nagaland,Zunheboto,"Kiphire,  Nagaland",25.8877,94.7861,monsoon,49.22,0.941,24.0
+Nagaland,Kohima,"Lower Chandmari area, PWD department, Kohima, Manipur",25.6623,94.1072,downpour,51.88,0.663,24.8
+Assam,Palāsbāri,"Kamrup district, Assam, India",25.9611,91.3681,continuous_rain,34.54,0.917,26.4
+Manipur,Imphal,"LangthAbal Khoupum, Imphal, Manipur",24.7339,93.9161,downpour,28.3,0.808,31.0
+Assam,Guwahati,"Raj Bhavan Guwahati, Assam",26.1978,91.7665,downpour,31.84,0.948,24.2
+Manipur,Yairipok,Phungyar road,24.819,94.3551,continuous_rain,37.81,0.672,24.2
+Meghalaya,Shillong,"Ratacherra village along the NH-44 connecting to Barak Valley in Assam and Tripura, Meghalaya, Mizoramon",25.463,92.2121,continuous_rain,49.54,0.816,28.9
+Manipur,Yairipok,between Maku village and Kamjong sub division,24.9111,94.4759,continuous_rain,50.82,0.941,25.4
+Arunachal Pradesh,Pāsighāt, Arunachal Pradesh ,27.8458,95.2253,downpour,25.21,0.807,22.7
+Tripura,Āmbāsa,"atharamura hills, Highway 44, Tripura",23.8986,91.7599,downpour,40.32,0.839,25.4
+Nagaland,Kohima,"NH-39 near Khongnem(?) village, between Imphal and Dimapur, Manipur",25.5265,93.8673,downpour,37.52,0.859,21.7
+Assam,Dispur,,26.1062,91.8717,continuous_rain,31.66,0.786,22.1
+Nagaland,Kohima,"NH-39 at Tobio village(?), 7 km form Tadubi, Manipur",25.4788,94.1399,downpour,28.6,0.838,26.0
+Meghalaya,Tura,South West Garo Hills,25.5006,90.0896,rain,35.13,0.825,25.0
+Assam,North Guwāhāti,"Nursery, North Guwahati, Guwahati, Assam,",26.1662,91.7138,rain,53.29,0.92,31.0
+Nagaland,Zunheboto,"Tizu, Nagaland",25.8376,94.5234,continuous_rain,34.7,0.664,24.3
+Nagaland,Zunheboto,"Phizo, Nagaland",26.0481,94.4619,continuous_rain,40.56,0.734,27.0
+Assam,Dispur,Batahghuli,26.1324,91.8342,rain,46.09,0.935,27.6
+Sikkim,Rangpo,"Rolep, South Sikkim( Mapping to Rhenock 12 miles from Rolep)",27.1748,88.6458,rain,35.91,0.917,20.2
+Nagaland,Zunheboto,"Government Middle School (GMS) Kiphire station “B”, Kiphire, Nagaland, India",25.8702,94.7844,downpour,54.15,0.787,28.0
+Nagaland,Zunheboto,Zunheboto district,26.0214,94.5224,continuous_rain,53.87,0.836,22.1
+Manipur,Bishnupur,Nungba,24.7459,93.4251,continuous_rain,32.55,0.733,31.5
+Meghalaya,Karīmganj,National Highway 44,25.2568,92.3825,rain,39.92,0.706,21.8
+Arunachal Pradesh,Hawai,Hawai,27.8835,96.9262,continuous_rain,34.03,0.789,25.0
+Arunachal Pradesh,Hayuliang,"Hayuliang, Anjaw district,Arunachal Pradesh, India",28.0822,96.5316,downpour,33.55,0.756,21.0
+Assam,Guwahati,Dhirenpara,26.1295,91.7056,rain,26.11,0.825,32.0
+Sikkim,Namchi,"many locations around Namchi, Sikkim",27.167,88.3652,downpour,43.29,0.673,26.0
+Nagaland,Kohima,"NH 39 at Kigwema(?), between Mao Gate and Kohima, Nagaland",25.5718,94.1211,downpour,40.08,0.942,27.1
+Nagaland,Mokokchūng,"Zhekuto, Nagaland",26.1807,94.5497,monsoon,26.54,0.946,20.8
+Sikkim,Gangtok,"17th Mile towards Tsomgo Lake, near Kyongsala, Sikkim ",27.3746,88.7648,rain,33.36,0.859,29.0
+Assam,Guwahati,"Noonmati Nijarapar area of the city, Guwahati, Assam, India",26.1963,91.8074,monsoon,52.25,0.811,22.5
+Manipur,Phek,"Phek, Manipur",25.6633,94.4703,downpour,32.19,0.743,30.8
+Sikkim,Jorethang,West Bengal-Sikkim at highway Rambi,26.99195749,88.42280921,rain,29.35,0.894,22.5
+Assam,Dispur,VIP Road,26.159,91.8178,rain,39.68,0.855,22.3
+Assam,Barpeta,"Kamrup, and Sonitpur, Assam",26.3333,91.25,downpour,54.57,0.699,20.4
+Nagaland,Mon,"Walo Ward, Mon Town, Wokha District, Nagaland",26.72,95.029,downpour,32.26,0.923,25.7
+Nagaland,Kohima,"Maram, Manipur",25.4192,94.108,rain,45.16,0.897,26.8
+Sikkim,Gangtok,14 Milestone Of J N Marg Near Kyangnosola (East Sikkim),27.3736,88.7323,rain,47.85,0.935,20.8
+Assam,Mahur,between Mahur and Phaiding railway stations on Barail hills (Mahur and Barail hills located),25.1718,93.123,downpour,32.13,0.868,29.3
+Manipur,Phek,"Tusom, Manipur",25.426,94.6024,downpour,46.85,0.834,25.4
+Nagaland,Zunheboto,"Zunheboto, Nagaland",26.0093,94.5238,monsoon,36.03,0.775,26.3
+Arunachal Pradesh,Naharlagun,Arunachal Pradesh,27.1614,93.7525,downpour,43.97,0.93,25.3
+Assam,North Guwāhāti,Maligaon,26.1868,91.6739,rain,44.01,0.91,24.8
+Nagaland,Kohima,"Lasumi village in Phek district, Kohima",25.51614662,94.2341227,rain,41.07,0.664,26.7
+Assam,Tezpur,NH 37,26.5836,93.0038,downpour,27.71,0.658,21.9
+Manipur,Imphal,"Velnal village, Tamei sub-division and Toribari village (3 kilometer toward Tamei from Kangpokpi)",25.1333,93.9667,rain,50.06,0.763,22.2
+Meghalaya,Shillong,National Highway No 44 at Sonarpur in Meghalaya,25.5576,91.8506,rain,34.62,0.893,30.3
+Manipur,Imphal,Naga Gate along the Ukhrul-Imphal route,25.0634,94.3415,continuous_rain,30.6,0.946,31.4
+Manipur,Imphal,"Tharon(?) and Langol Tarung villages, Thangmeiband constituency, Imphal, Manipur",24.837,93.9128,downpour,26.22,0.695,24.5
+Sikkim,Namchi,Bardang near Singtam,27.1499,88.38,rain,42.73,0.828,23.2
+Sikkim,Rangpo,"4th Mile on road between Rongli, Rhenock and Rangpo in East Sikkim.",27.1954,88.6115,rain,45.33,0.764,27.7
+Arunachal Pradesh,Naharlagun,"Itanagar (one near Pachali power house, one near Heema Hospital, and one nearRomik Colony at P Sector)",27.1032,93.6884,downpour,25.5,0.941,24.9
+Meghalaya,Nongstoin,"Borsorsa(?), West Khasi Hills, Meghalaya",25.4916,91.2698,downpour,40.36,0.903,20.3
+Assam,North Lakhimpur,"Kimin-Ziro road in Papum Pare district, road between Doimukh and Sagalee, Doimukh-Hoj road; Arunachal Pradesh",27.163,94.0,rain,31.79,0.901,21.9
+Assam,Guwahati,"Bhangagarh, Assam",26.1619,91.7697,rain,44.36,0.791,28.6
+Manipur,Imphal,"Lower Shajouba village near Tadubi along NH 39, Manipur ",25.0604,93.9877,rain,30.23,0.774,27.9
+Assam,Karīmganj,"NH44, Malidhor area,  Baleswar",25.0951,92.3567,downpour,45.73,0.732,20.3
+Arunachal Pradesh,Bomdila,Mebua (8 km from Seppa),27.2743,92.9064,downpour,36.6,0.667,22.7
+Assam,Mankāchar,Hatsingimari,25.7238,89.9032,continuous_rain,53.1,0.909,22.8
+Assam,Silchar,"A Cachar District village, near village of Srinager, Assam",24.9849,92.8411,mining,29.13,0.894,28.1
+Manipur,Kohima,Willong-Yangkhullen stretch,25.5007,93.9854,continuous_rain,35.23,0.95,20.2
+Mizoram,Darlawn,"Taithu village, Churanchandpur district, Mizoram, Manipur",24.3069,93.125,downpour,28.4,0.949,21.2
+Nagaland,Kohima,between Phesama and Kuima in Nagaland,25.6263,94.1057,continuous_rain,52.74,0.817,29.6
+Arunachal Pradesh,Along,Arunachal Pradesh,28.1737,94.7596,unknown,51.32,0.881,22.1
+Arunachal Pradesh,Itānagar,Arunachal Pradesh/Itanagar,27.0869,93.6086,downpour,32.74,0.933,27.8
+Mizoram,Darlawn,Phullen’s main road,23.8447,93.0514,continuous_rain,44.8,0.905,22.9
+Meghalaya,Shillong,Mawbah under Mawprem area,25.5772,91.8666,continuous_rain,49.52,0.724,21.2
+Meghalaya,Shillong,"NH44, Kuliang",25.5498,92.0757,downpour,41.66,0.785,22.9
+Manipur,Imphal,"Imphal-Jiribam section of NH-37 , Manipur",24.8142,93.5444,downpour,40.89,0.689,28.7
+Sikkim,Namchi,Tamabong Village In Sikkim State,27.3425,88.2426,downpour,32.26,0.936,30.3
+Assam,Silchar,"road between Halfong and Redzol(?) or Silchar, Assam",25.0477,92.801,downpour,27.79,0.832,30.0
+Nagaland,Kohima,"NH-39 near Kohima Municipality Council(KMC) dumping ground, between Zubza(Sechu) and Kohima, Nagaland",25.70223725,94.04619681,downpour,51.92,0.719,24.8
+Nagaland,Mokokchūng,"lower Majakong Ward, Mokokchung, Nagaland, India",26.3185,94.5247,continuous_rain,52.01,0.852,28.0
+Assam,Guwahati,Bamunimaidam,26.1844,91.7896,continuous_rain,43.99,0.835,22.5
+Manipur,Kakching,Wamkhu village along the Tengnoupal-Joupi road in Chandel district,24.2451,94.0691,rain,35.17,0.757,23.5
+Nagaland,Kohima,Phesama village,25.6237,94.1136,continuous_rain,35.48,0.684,30.8
+Sikkim,Namchi,"Namchi to Phongla, Namchi to Melli ,Namchi to Sumbuk",27.1675,88.3651,downpour,46.78,0.851,20.2
+Manipur,Kakching,between Bongyang and Lokchao along the Imphal-Moreh highway,24.4072,94.0644,continuous_rain,51.91,0.806,21.0
+Mizoram,Aizawl,"Aizawl-Lengpui rd 3km from Aizawl, Mizoram, Manipur",23.7527,92.694,downpour,51.61,0.882,22.5
+Nagaland,Wokha,"Akuk village, Wokha District, Nagaland",26.138,94.25,downpour,48.4,0.806,20.3
+Manipur,Mawlaik,near S Lamphei Lamkhai and Sehlon village,23.9939,94.0573,continuous_rain,44.26,0.906,22.2
+Assam,Rangia,Amingaon,26.49349035,91.72137514,rain,27.52,0.816,27.0
+Nagaland,Kohima,"Kohima, Nagaland",25.67,94.1066,downpour,29.85,0.818,25.1
+Manipur,Imphal,Dimapur-Imphal highway (NH 39) near Manipur,24.9356,93.8443,rain,51.96,0.913,30.7
+Manipur,Moirāng,"Irang(?) and Barak(?) and Makru(?) on highway 53 between Imphal and Jiribam, Manipur",24.7543,93.5039,rain,43.19,0.771,29.8
+Mizoram,Aizawl,"Muanna locality, Mizoram",23.7131,92.7362,rain,25.28,0.69,24.1
+Nagaland,Tuensang,"Tobu, Nagaland",26.3897,94.9439,rain,28.04,0.659,23.1
+Meghalaya,Karīmganj,Tongseng,25.1416,92.3807,rain,44.91,0.877,24.6
+Mizoram,Aizawl,"Chhinga Veng, Aizawl",23.73478778,92.72124394,downpour,25.15,0.836,27.1
+Assam,Guwahati,"Piyali Phukan Nagar, Guwahati, India",26.1961,91.7825,downpour,29.82,0.861,23.2
+Meghalaya,Karīmganj,National Highway at Kuliang,25.0728,92.3636,rain,41.46,0.714,27.5
+Sikkim,Rangpo,Rangpo,27.172,88.5292,downpour,45.76,0.691,24.9
+Mizoram,Aizawl,"Aizawl, Mizoram, India",23.7313,92.7187,downpour,44.56,0.654,26.6
+Manipur,Imphal,Tamei constituency in Tamenlong district,25.1604,93.6795,unknown,31.73,0.755,25.2
+Sikkim,Gangtok,"Ranka, Sikkim and Louing road",27.337,88.609,downpour,46.37,0.827,23.5
+Sikkim,Gangtok,"Nam Nang, Gangtok",27.322,88.6087,downpour,32.12,0.768,31.4
+Arunachal Pradesh,Tezu,"Anini-Roing road,  Dibang Valley,  Arunachal Pradesh ",28.4298,95.8776,downpour,34.76,0.781,29.2
+Assam,Lāla,"Bilaipur, Hailakandi district, Assam, India",24.5204,92.7264,continuous_rain,47.39,0.921,21.7
+Arunachal Pradesh,Rangāpāra,"Old Inspection Bungalow, Bhalukpong town, West Kameng, Arunachal Pradesh, India",27.0136,92.6351,downpour,44.49,0.754,30.4
+Arunachal Pradesh,Itānagar,"Itanagar-Naharlagun, Arunachal Pradesh",27.0998,93.6287,rain,50.48,0.804,25.8
+Assam,Guwahati,"Sarania Hills, North Guwahati, Guwahati, Assam,",26.1771,91.7599,rain,44.73,0.885,30.7
+Arunachal Pradesh,Khonsa,"Khonsa, Arunachal Pradesh",26.9986,95.4993,downpour,42.05,0.769,29.6
+Assam,Dimāpur,"Chumukedima, Dimapur",25.7713,93.8067,downpour,27.81,0.837,25.1
+Arunachal Pradesh,Douyu,"Polo River At Polosang, Arunachal Pradesh",27.8837,93.0515,rain,36.03,0.909,20.3
+Sikkim,Jorethang,200 meters from Teesta Bridge towards Siliguri,27.05374234,88.42572376,rain,32.96,0.935,23.2
+Manipur,Imphal,"National Highway 53, Sinam Khul (near Kotlen; ~25 km from Imphal)",24.8063,93.9482,downpour,32.32,0.694,26.5
+Mizoram,Lunglei,"Hual(Hu) village(?), Lunglei-Lawngtlai rd, Mizoram",22.7176,92.8416,downpour,54.19,0.928,27.6
+Arunachal Pradesh,Bomdila,"Upper Subansiri District, Arunanchal Pradesh",27.7,92.8,downpour,36.79,0.798,23.1
+Manipur,Kohima,Yangkhullen-Tamphung road till Nagaland border,25.5098,93.8794,continuous_rain,51.76,0.727,21.7
+Manipur,Yairipok,"Road stretch from Gammom to Chamu village, under Kamjong block, Ukhrul district, Manipur",24.8628,94.4182,downpour,43.93,0.788,30.0
+Assam,Mahur,"Highway 53 at Tupul, Tamenglong district",24.9786,93.5027,downpour,48.84,0.944,31.8
+Assam,Hāflong,Shillong Road at Kuliang in the Jaintia Hills,25.2946,92.8339,rain,40.08,0.798,26.3
+Assam,Guwahati,Lalunggaon near Gorchuk area,26.1226,91.7162,downpour,42.31,0.749,22.1
+Meghalaya,Shillong,"Shillong, Meghalaya, India",25.583,91.893,downpour,39.78,0.84,23.3
+Assam,Hailākāndi,Rongpur village under Bhairabhnagar panchayat in Karimganj district,24.6005,92.3814,downpour,30.86,0.722,20.2
+Arunachal Pradesh,Tawang,"Tawang, Arunachal Pradesh",27.5799,91.8569,continuous_rain,46.67,0.673,31.0
+Arunachal Pradesh,Tawang,Babrang village under Jang circle in Tawang district,27.5754,91.9754,downpour,33.42,0.689,21.4
+Arunachal Pradesh,Bomdila,East Kameng district in Arunachal Pradesh bordering China,27.44,92.2833,rain,25.73,0.688,26.9
+Nagaland,Mokokchūng,"Longsa, Nagaland",26.2083,94.5438,monsoon,44.36,0.696,23.3
+Manipur,Thoubāl,"near Kuloor church, in Manipur along National Highway",24.6596,93.9784,monsoon,30.31,0.692,26.7
+Nagaland,Kohima,"Chiechama, Nagaland",25.8266,94.1497,continuous_rain,53.21,0.842,27.8
+Assam,Guwahati,"Pub Sarania hill, South Sarania, Guwahati, Assam, India",26.1768,91.7702,monsoon,53.62,0.705,30.0
+Arunachal Pradesh,Ziro,"Koloriang, Kuring Kumey district, Arunachal Pradesh",27.8997,93.3497,downpour,52.45,0.754,22.5
+Sikkim,Kālimpang,"NH-10, Sepi Jhora, Kalimpong",27.0816,88.4397,continuous_rain,36.1,0.919,20.1
+Mizoram,Aizawl,"Laipuitland , Aizawl, Mizoram",23.7281,92.7175,rain,25.46,0.792,21.6
+Manipur,Imphal,"amei to Kangpokpi via Imphal road, 0.5 km from Tamei, Tamenglang District",25.16,93.686,monsoon,52.85,0.85,30.8
+Meghalaya,Shillong,"National highway 44 at Sunapur and Tongseng in Jaintia Hills district, eastern Meghalaya",25.3433,92.2897,downpour,37.85,0.702,30.5
+Arunachal Pradesh,Tawang,"Tawang Monastery, Arunachal Pradesh",27.5798729,91.85672387,unknown,54.0,0.708,27.2
+Assam,Guwahati,"Boragaon, North Guwahati, Guwahati, Assam,",26.1016,91.6906,rain,53.91,0.662,27.2
+Mizoram,Kolasib,"Kolasib, Saiha, Mizoram,",24.2315,92.6755,rain,50.59,0.701,28.0
+Assam,Guwahati,"Kharghuli, Guwahati, Assam",26.1965,91.763,downpour,33.83,0.734,22.1
+Assam,Dispur,Natonal Highway in Jorabat area,26.1028,91.8806,continuous_rain,36.55,0.703,31.0
+Nagaland,Zunheboto,"Suruhuto Town, Nagaland",26.0838,94.564,rain,50.53,0.677,25.0
+Mizoram,Sāitlaw,"National Highway 54, at Kawnpui town",24.042,92.6724,downpour,34.51,0.686,24.6
+Arunachal Pradesh,Naharlagun,Itanagar/Naharlagur/Nirjuli,27.125,93.7145,downpour,30.08,0.788,26.2
+Arunachal Pradesh,Motuo,"Dibang Valley, Arunachal Pradesh",28.8254,96.1509,rain,41.7,0.712,20.6
+Manipur,Kakching,Senam,24.416,94.0984,continuous_rain,53.08,0.759,22.0
+Nagaland,Tuensang,"Yakshu, Nagaland",26.4205,94.9731,unknown,45.88,0.801,28.9
+Nagaland,Kohima,"NH-39 at Ekai village(?), 2 km for Tadubi, Manipur",25.4786,94.1327,downpour,42.1,0.857,21.0
+Nagaland,Kohima,NH-61 between Botsa and Chiechama,25.8782,94.1739,downpour,27.92,0.662,27.2
+Sikkim,Namchi,Namchi,27.1695,88.3664,rain,43.45,0.89,22.9
+Assam,Karīmganj,Ratacherra,25.0318,92.4584,rain,54.7,0.838,24.7
+Arunachal Pradesh,Along,"Gosang Village Under Jengging Circle, Arunachal Pradesh",28.611,94.9829,downpour,29.2,0.675,23.5
+Mizoram,Khawhai,"Ngur, near Mizoram-Myanmar border, India",23.5397,93.3783,continuous_rain,40.55,0.912,24.3
+Assam,Dispur,"Sonaighuli area near Kahilipara, Guwahati City, Assam",26.1049,91.7369,downpour,51.32,0.926,28.6
+Arunachal Pradesh,Motuo,"Arunachal Pradesh, Dibang,",28.8254,96.1517,downpour,47.22,0.668,23.6
+Arunachal Pradesh,Bomdila,Type-IV Colony of Seppa in East Kameng,27.36,93.0385,monsoon,45.91,0.733,26.8
+Assam,Dispur,"Batahguli, Guwahati, Assam",26.1309,91.8383,downpour,46.07,0.892,25.7
+Arunachal Pradesh,Pāsighāt,"Mossing(Mosing) village(?), Upper Siang district, Arunachal Pradesh",28.3036,95.4112,downpour,35.78,0.874,28.0
+Manipur,Imphal,"Roads between Tamei(Tamma?), Kangpokpi and Chalwa, Manipur",25.1555,93.8474,continuous_rain,33.81,0.705,31.2
+Nagaland,Kohima,"Bungte Chiru village(?), Senapati district, Manipur",25.2745,94.0212,downpour,49.28,0.713,28.8
+Mizoram,Serchhīp,"road to Kanan Veng from Hunthar Veng, Mizoram",23.73504471,92.71060943,downpour,49.3,0.761,22.6
+Assam,Hāflong,"Silchar-Haflong rd., at Reko(Rekha )(?), near Harangajao, Barail Hills, Assam",25.0888,92.8551,downpour,51.01,0.795,20.4
+Sikkim,Gangtok,"Daragaon(?), Gangtok city, Sikkim",27.3392,88.6188,downpour,52.4,0.835,23.1
+Meghalaya,Dispur,Byrnihat,26.048,91.8695,unknown,40.34,0.761,27.1
+Mizoram,Khawhai,"near Tuichang(?) on Tuichang river, Aizawl-Champhai rd, Mizoram",23.3439,93.0748,downpour,40.05,0.789,20.6
+Meghalaya,Tura,Akonggre,25.5084,90.2191,downpour,48.95,0.874,26.0
+Assam,Amguri,Kangtsung Village,26.7103,94.693,downpour,44.5,0.661,27.2
+Sikkim,Gangtok,"North Sikkiim Highway, periphery of Gangtok, Sikkim East district",27.3543,88.6428,downpour,46.06,0.726,24.0
+Assam,Lakhipur,"Nungba, Tamenglong, Manipur",24.7679,93.4108,downpour,48.87,0.864,29.3
+Nagaland,Phek,Meluri Sub-Division in Phek District of Nagaland,25.72,94.6219,continuous_rain,51.7,0.919,21.3
+Nagaland,Zunheboto,"Zunheboto, Nagaland, India",26.0101,94.5282,downpour,35.14,0.804,20.9
+Nagaland,Kohima,"Lower Pezielietsie(Tinpati), Kohima, Manipur",25.682,94.1076,downpour,36.27,0.81,28.7
+Mizoram,Aizawl,"Aizawl, Mizoram, India",23.7348,92.7187,downpour,27.82,0.682,25.9
+Meghalaya,Netrakona,NH-62 at Sibbari,25.2193,90.5549,continuous_rain,42.35,0.784,28.3
+Arunachal Pradesh,Tawang,"Dolma Lhakang complex, Lumla, Tawang,  Arunachal Pradesh, India",27.5748,91.8644,monsoon,26.08,0.81,25.2
+Nagaland,Kohima,"Senapati, Manipur",25.318,94.0441,downpour,38.97,0.723,23.0
+Manipur,Bishnupur,Khoupum,24.7016,93.5291,continuous_rain,41.28,0.731,29.8
+Assam,Hāflong,"rails between Jatinga and Longrangjao(?), Assam",25.0633,92.8025,downpour,33.6,0.763,29.6
+Nagaland,Kohima,"NH-61, 1 km before reaching Botsa",25.6703,94.1095,downpour,42.72,0.656,28.3
+Nagaland,Kohima,"National Highway-39, Dimapur-Imphal road and another under Kiphire district of Nagaland",25.705,94.04,downpour,25.92,0.747,23.3
+Nagaland,Mokokchūng,Mokokchung,26.3186,94.5121,downpour,26.12,0.713,27.1
+Manipur,Imphal,Ukhrul town Circular road from Rayotang to Viewland Zone II,25.1122,94.3591,continuous_rain,49.68,0.748,24.3
+Arunachal Pradesh,Damnyain,"Tuting, Upper Siang , Arunachal Pradesh",28.9986,94.8885,downpour,35.81,0.686,21.1
+Nagaland,Mon,"Jahjon ward(?), Mon town, Nagaland",26.7215,95.0283,downpour,28.81,0.917,31.0
+Sikkim,Namchi,Geyzing-Jorethang road and Naya Bazar-Legship road,27.2872,88.2816,rain,40.67,0.828,21.6
+Mizoram,Aizawl,"Dawrpui Vengthar cemetary, Aizwal, Mizoram",23.7365,92.7146,downpour,48.1,0.854,31.4
+Mizoram,Sairang,"Dapchhuah, Mamit, Mizoram",23.7705,92.5217,downpour,31.47,0.887,25.4
+Nagaland,Mokokchūng,"Suruhuto Town, Nagaland",26.1498,94.6055,monsoon,43.69,0.8,22.2
+Nagaland,Tuensang,"Tuensang-Shamatore(Sampurre) rd, Nagaland",26.148,94.8422,downpour,27.56,0.676,26.5
+Meghalaya,Tura,"Garo Hills, Tura",25.5144,90.2167,downpour,26.55,0.811,30.5
+Meghalaya,Nongstoin,"Assam-Agartala National Highway, Sonarpur in Jayantiya hills of Meghalaya",25.52,91.27,rain,40.94,0.826,28.8
+Assam,Guwahati,"Kharghuli Hills, Assam",26.1964,91.7652,rain,41.22,0.874,29.7
+Manipur,Wāngjing,between Tengnoupal-Sita junction and Tengnoupal Power Sub-Station,24.4265,94.1913,continuous_rain,44.12,0.779,27.9
+Mizoram,Serchhīp,"Tuikual 'C', Aizawl, Mizoram",23.72988966,92.71495623,downpour,46.78,0.688,28.3
+Assam,Dispur,Guwahati,26.1833,91.8,rain,54.28,0.735,30.2
+Sikkim,Namchi,Hingdam village in South Sikkim,27.1667,88.35,rain,40.49,0.759,23.0
+Meghalaya,Nongpoh,Jorabat-Umiam route,25.9702,91.8587,rain,34.69,0.844,25.9
+Sikkim,Gangtok,"Tathangchen, Gangtok, Sikkim ",27.339,88.6065,downpour,48.86,0.821,22.7
+Nagaland,Kohima,"Mao in Manipur, Phipema and Chunikhudima in Nagaland",25.4993,94.1192,rain,33.12,0.757,31.9
+Meghalaya,Tura,Tura,25.5212,90.232,rain,38.17,0.946,31.3
+Manipur,Mawlaik,"Wayang, Khengjoi",23.9278,94.0906,rain,27.35,0.832,20.5
+Manipur,Imphal,Tamenglong,24.9667,93.55,continuous_rain,25.76,0.721,28.5
+Assam,Hāflong,"between Haflong and  Bagetar, Assam",25.1775,93.0123,downpour,53.88,0.681,31.1
+Assam,Maibong,"between Maibang and Daotohaja, Assam",25.3056,93.1265,downpour,50.08,0.696,22.2
+Manipur,Phek,Ukhrul NH 201-Jessami road,25.1941,94.4481,continuous_rain,45.88,0.724,26.8
+Nagaland,Kohima,"Maram area in Senapati district, National Highway 39",25.4196,94.1054,downpour,37.27,0.698,31.0
+Nagaland,Kohima, Botsa  and Chiechama,25.83,94.13,monsoon,30.2,0.706,20.4
+Assam,Mahur,"Khongsang, Tamenglong, Manipur,",24.9926,93.4946,rain,29.69,0.736,28.4
+Mizoram,Thenzawl,"Mizoram, India",23.4495,92.8112,downpour,32.51,0.702,23.6
+Manipur,Imphal,Heibok Hills,24.7992,93.948,downpour,41.48,0.919,31.1
+Assam,North Guwāhāti,"Nilachal Hill, Guwahati, Assam",26.1665,91.7049,downpour,46.44,0.674,31.7
+Nagaland,Mokokchūng,"Fazl Ali College, Mokokchung, Nagaland",26.3335,94.5512,downpour,44.81,0.807,31.3
+Manipur,Imphal,Imphal-Ukhrul road,24.954,94.2156,continuous_rain,33.4,0.773,25.7
+Assam,Hāflong,"Haflong, Assam",25.1796,93.0083,downpour,53.65,0.945,30.3
+Nagaland,Kohima,"Maram-Purul Road, Karong Assembly Constituency of Senapati district, Manipur",25.4379,94.1162,rain,47.14,0.684,30.1
+Nagaland,Kohima,"NH-39 at Piphema,  6 km towards Dimapur from Kohima in Nagaland",25.7055,94.0132,rain,41.63,0.769,23.8
+Arunachal Pradesh,Naharlagun,"Hoj-Potin Highway, Arunachal Pradesh, India",27.3034,93.804,downpour,43.35,0.941,29.9
+Arunachal Pradesh,Pāsighāt,"Mosing village, Upper Siang district, Arunachal Pradesh",28.3092,95.4149,downpour,37.59,0.91,20.4
+Nagaland,Zunheboto,Kiphire-Seyochung road near Yangzitong village,25.9466,94.6279,unknown,32.43,0.895,27.2
+Assam,Mahur,"rails between Mahur and Wadringdisa(?), Assam",25.2269,93.1658,downpour,35.68,0.727,22.8
+Nagaland,Mon,"Mon, Nagaland",26.7225,95.0281,monsoon,47.74,0.701,21.4
+Manipur,Kakching,Chandel,24.3481,94.1146,unknown,25.43,0.851,20.9
+Assam,Soalkuchi,Kailashpur hill,26.1468,91.6469,mining,28.48,0.929,28.4
+Meghalaya,Shillong,Shillong-Jowai(Jwai)-Badarpur National Highway(NH 44) at Sunapur village in Jaintia Hills District,25.3612,92.2845,downpour,26.38,0.817,24.1
+Assam,Hailākāndi,,24.6108,92.562,mining,26.22,0.821,28.7
+Meghalaya,Tura,National Highway 51,25.7354,90.3852,continuous_rain,50.66,0.734,20.8
+Meghalaya,Lakhipur,Meghalaya,25.8143,90.5763,continuous_rain,46.11,0.881,23.8
+Nagaland,Kohima,power lines 5 km from Kohima,25.63961883,94.11112157,downpour,39.23,0.706,26.5
+Assam,Lāla,"Ramchandi , Hailakandi District, Assam, India",24.5308,92.5121,continuous_rain,27.94,0.747,29.5
+Sikkim,Namchi,Legship,27.2676,88.2891,continuous_rain,39.75,0.778,23.8
+Mizoram,Aizawl,three graveyards within Aizawl,23.7269,92.7265,downpour,39.2,0.802,27.5
+Manipur,Kohima,NH-2 between Senapati and Mao,25.3908,94.0926,continuous_rain,30.2,0.723,30.6
+Tripura,Khowai,"Purba Simna, Tripura",24.0896,91.4663,rain,38.02,0.684,27.4
+Assam,Guwahati,"Noonmati, Guwahati, Assam, India",26.1966,91.802,rain,36.96,0.833,22.8
+Assam,Maibong,"between Mahur and Maigrandisa(?) or Lumding, Assam",25.4749,93.1477,downpour,43.48,0.737,20.3
+Assam,Dispur,Lalmati,26.1097,91.7747,rain,44.05,0.824,30.4
+Nagaland,Mokokchūng,"Dikhu bridge(?), Mokokchung-Tuensang road, Nagaland",26.2753,94.6654,downpour,26.36,0.696,20.3
+Assam,Guwahati,Pamohi,26.1001,91.6849,rain,36.24,0.794,30.5
+Arunachal Pradesh,Along,"5 km off Sangam point on Aalo- Pangin road, Arunachal Pradesh, India",28.235,94.9612,downpour,43.78,0.81,26.3
+Assam,Dispur,Guwahati,26.1699,91.7986,rain,40.09,0.666,31.3
