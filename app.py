@@ -506,12 +506,6 @@ with st.sidebar:
     # If the live rain categories don't match what the CSV used for training,
     # rain is silently having zero effect on every prediction - see the
     # sanity check right after train_model() above.
-    if _UNSEEN_RAIN_CATEGORIES:
-        st.warning(
-            "⚠️ Training data never contained these rain categories: "
-            f"**{', '.join(sorted(_UNSEEN_RAIN_CATEGORIES))}**. Live readings "
-            "in these categories are being ignored by the model."
-        )
 
     st.divider()
 
