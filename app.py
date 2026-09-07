@@ -172,6 +172,24 @@ def train_model():
 model, accuracy = train_model()
 
 
+# ---- Sanity check: do the LIVE weather categories match what the model TRAINED on? ----
+# get_weather() below produces one of these 5 category strings from live rain (mm/hr).
+# If the CSV's "rain_report (trigger)" column used different text for the same idea
+# (e.g. "no_rain" instead of "clear", or "heavy_rain" instead of "downpour"), then
+# OneHotEncoder(handle_unknown="ignore") will silently encode every live reading in
+# that category as all-zeros - i.e. rain has ZERO effect on the prediction, with no
+# error or warning. That alone can make genuinely rainy, at-risk locations score low.
+# This check just surfaces the mismatch loudly instead of letting it fail silently.
+_LIVE_RAIN_CATEGORIES = {"clear", "light_rain", "rain", "continuous_rain", "downpour"}
+try:
+    _TRAINED_RAIN_CATEGORIES = set(
+        model.named_steps["preprocessor"].named_transformers_["cat"].categories_[0]
+    )
+except Exception:
+    _TRAINED_RAIN_CATEGORIES = _LIVE_RAIN_CATEGORIES  # if this ever fails, skip the check
+_UNSEEN_RAIN_CATEGORIES = _LIVE_RAIN_CATEGORIES - _TRAINED_RAIN_CATEGORIES
+
+
 # =============================================================================
 # PART 4 - HELPER FUNCTIONS
 # Small reusable functions that are called later in the app.
@@ -179,39 +197,72 @@ model, accuracy = train_model()
 
 def get_slope(lat, lon):
     """
-    Fetches elevation at 3 GPS points near (lat, lon) and
-    calculates the terrain slope in degrees.
-    """
-    # offset = a tiny shift in coordinates (~111 metres in real distance)
-    offset = 0.001
+    Fetches elevation at 8 points around (lat, lon) - one in each compass
+    direction - plus the center point, and returns the STEEPEST gradient
+    found among them (in degrees).
 
-    # Build the API URL - we request elevation at 3 points:
-    #   Point A: exactly (lat, lon)
-    #   Point B: slightly north  (lat + offset, lon)
-    #   Point C: slightly east   (lat, lon + offset)
+    Why 8 directions instead of just north+east (the original approach)?
+    Open-Meteo's elevation data is a 90m-resolution DEM (Copernicus GLO-90).
+    A real slope failure - a road cut, a river-cut valley wall, an urban
+    hillside - is often a narrow feature running in one specific direction.
+    If that direction happens to be, say, northwest-to-southeast, a
+    north/east-only gradient can average right past it and report a much
+    gentler slope than what's actually on the ground. Checking all 8
+    compass directions and keeping the steepest one is far less likely to
+    miss the real cliff/scarp direction.
+
+    NOTE: even with this fix, a 90m DEM still can't resolve very small
+    (tens-of-metres-wide) engineered slopes precisely. If you find this
+    still under-reports slope for known steep sites, the next step up is
+    swapping in a higher-resolution DEM (e.g. Bhuvan/ISRO CartoDEM at
+    ~30m, or ALOS PALSAR at ~12.5m) - see the chat explanation for details.
+    """
+    offset = 0.001  # ~111 m
+
+    # (delta_lat, delta_lon) for the center point plus all 8 compass directions
+    directions = [
+        (0, 0),                     # 0: center
+        ( offset,  0),              # 1: N
+        (-offset,  0),              # 2: S
+        ( 0,  offset),              # 3: E
+        ( 0, -offset),              # 4: W
+        ( offset,  offset),         # 5: NE
+        ( offset, -offset),         # 6: NW
+        (-offset,  offset),         # 7: SE
+        (-offset, -offset),         # 8: SW
+    ]
+    lats = ",".join(str(lat + d[0]) for d in directions)
+    lons = ",".join(str(lon + d[1]) for d in directions)
+
     url = (
         "https://api.open-meteo.com/v1/elevation"
-        f"?latitude={lat},{lat + offset},{lat}"
-        f"&longitude={lon},{lon},{lon + offset}"
+        f"?latitude={lats}&longitude={lons}"
     )
 
-    # Call the API and get back a list of 3 elevation values (in metres)
-    elev = requests.get(url, timeout=10).json().get("elevation", [0, 0, 0])
+    elev = requests.get(url, timeout=10).json().get("elevation")
 
-    # Convert the coordinate offset into real-world metres
-    dy = offset * 111320                          # metres going north
-    dx = offset * 111320 * math.cos(math.radians(lat))  # metres going east
+    # Fail LOUD, not quiet: the original code defaulted to [0, 0, 0] on any
+    # problem, which silently reports "flat ground" (i.e. LOW risk) for a
+    # hazard app whenever the elevation service hiccups. Raising here means
+    # the existing try/except in the button handler shows a red st.error
+    # instead of quietly under-reporting risk.
+    if not elev or len(elev) != 9 or any(e is None for e in elev):
+        raise RuntimeError("Elevation service returned incomplete data for this location.")
 
-    # Calculate slope: how much does height change per metre of distance?
-    # This is the gradient in each direction
-    rise_north = (elev[1] - elev[0]) / dy   # elevation change going north
-    rise_east  = (elev[2] - elev[0]) / dx   # elevation change going east
+    base = elev[0]
+    steepest = 0.0
+    for i, (dlat, dlon) in enumerate(directions[1:], start=1):
+        # Real-world horizontal distance (metres) covered by this sample point
+        dy = dlat * 111320
+        dx = dlon * 111320 * math.cos(math.radians(lat))
+        horiz_dist = math.sqrt(dy**2 + dx**2)
+        if horiz_dist == 0:
+            continue
+        rise = elev[i] - base
+        angle_deg = math.degrees(math.atan(abs(rise) / horiz_dist))
+        steepest = max(steepest, angle_deg)
 
-    # Combine both gradients into one slope angle using Pythagoras + arctan
-    slope_radians = math.atan(math.sqrt(rise_north**2 + rise_east**2))
-
-    # Convert from radians to degrees and round to 2 decimal places
-    return round(math.degrees(slope_radians), 2)
+    return round(steepest, 2)
 
 
 def get_weather(lat, lon):
@@ -244,6 +295,39 @@ def get_weather(lat, lon):
         "rainfall_mm":   rain,
         "category":      category,
     }
+
+
+def get_recent_rainfall(lat, lon, days=3):
+    """
+    Fetches TOTAL rainfall over the past `days` days (not just this instant).
+
+    Why this matters: landslides are very often triggered by rain that fell
+    HOURS OR DAYS before the slope actually gives way - the ground needs
+    time to soak up water and become saturated first. get_weather() above
+    only reports what's falling right this second. If you check a location
+    the morning after 3 days of heavy rain finally stopped, get_weather()
+    will happily report "clear" even though the slope may be at its most
+    dangerous point. This function fills that gap.
+
+    Returns a dict with total_mm (float or None if the API call failed)
+    and a list of each day's rainfall for transparency in the debug panel.
+    """
+    url = (
+        "https://api.open-meteo.com/v1/forecast"
+        f"?latitude={lat}&longitude={lon}"
+        f"&daily=precipitation_sum&past_days={days}&forecast_days=1&timezone=auto"
+    )
+    try:
+        daily = requests.get(url, timeout=10).json()["daily"]
+        # precipitation_sum includes TODAY as the last entry, which is a
+        # partial/incomplete day - drop it so we only sum full past days
+        past_days_mm = daily["precipitation_sum"][:-1]
+        return {
+            "total_mm": round(sum(v for v in past_days_mm if v is not None), 1),
+            "daily_mm": [round(v, 1) if v is not None else None for v in past_days_mm],
+        }
+    except Exception:
+        return {"total_mm": None, "daily_mm": []}
 
 
 def score_to_label(score):
@@ -418,6 +502,17 @@ with st.sidebar:
     st.caption("Landslide Early Warning \u00b7 SIH Prototype")
 
     st.caption("Trained on 351 NER landslide records")
+
+    # If the live rain categories don't match what the CSV used for training,
+    # rain is silently having zero effect on every prediction - see the
+    # sanity check right after train_model() above.
+    if _UNSEEN_RAIN_CATEGORIES:
+        st.warning(
+            "⚠️ Training data never contained these rain categories: "
+            f"**{', '.join(sorted(_UNSEEN_RAIN_CATEGORIES))}**. Live readings "
+            "in these categories are being ignored by the model."
+        )
+
     st.divider()
 
     # Number input widgets - user types or clicks +/- to change values
@@ -454,6 +549,12 @@ if go:
             # Step 2: call the Open-Meteo forecast API to get weather
             weather = get_weather(lat, lon)
 
+            # Step 2b: also pull the last 3 days of rainfall. See
+            # get_recent_rainfall()'s docstring - this is what lets the app
+            # recognise a spot that got soaked by rain yesterday even if
+            # it's perfectly dry and sunny at the exact moment you check it.
+            recent_rain = get_recent_rainfall(lat, lon, days=3)
+
             # Step 3: put the 4 inputs into a one-row DataFrame (table)
             # The model was trained on a table, so it expects a table as input
             features = pd.DataFrame([{
@@ -468,7 +569,27 @@ if go:
             # [0] = first (only) row
             # [1] = second value = probability the location IS at risk
             # Multiply by 100 to get a 0-100 percentage
-            risk_score = int(model.predict_proba(features)[0][1] * 100)
+            ml_score = int(model.predict_proba(features)[0][1] * 100)
+
+            # Step 4b: antecedent-rainfall adjustment.
+            # The trained model only ever "sees" the CURRENT hour's rain
+            # (that's all it was trained on). This adds a small, clearly
+            # labelled rule-based nudge on top when the past few days were
+            # genuinely wet, so a recently-soaked slope isn't reported as
+            # perfectly safe just because it happens to be dry right now.
+            # These thresholds are a reasonable starting point, not a
+            # calibrated scientific figure - tune them if/when you have
+            # real historical rainfall-vs-landslide data for NER.
+            antecedent_bonus = 0
+            if recent_rain["total_mm"] is not None:
+                if recent_rain["total_mm"] >= 150:
+                    antecedent_bonus = 25
+                elif recent_rain["total_mm"] >= 75:
+                    antecedent_bonus = 15
+                elif recent_rain["total_mm"] >= 30:
+                    antecedent_bonus = 5
+
+            risk_score = min(100, ml_score + antecedent_bonus)
 
             # Step 5: save results to session_state
             # Streamlit re-runs the whole file after every interaction.
@@ -479,7 +600,11 @@ if go:
                 "lon":       lon,
                 "slope":     slope,
                 **weather,           # unpacks all weather keys into this dict
-                "risk_score": risk_score,
+                "ml_score":         ml_score,
+                "antecedent_bonus": antecedent_bonus,
+                "recent_rain_mm":   recent_rain["total_mm"],
+                "recent_rain_daily": recent_rain["daily_mm"],
+                "risk_score":       risk_score,
             }
 
         except Exception as e:
@@ -568,6 +693,40 @@ if "result" in st.session_state and st.session_state.result:
 | Rain Type | `{r["category"]}` |
 | Risk Score | `{score} / 100` |
 """)
+
+    # ---- Debug panel: exactly what went into the score, and why ----
+    # This is the single most useful panel for answering "why is this
+    # score low/high?" for any coordinate - it shows each of the three
+    # things the model needs to see together (steep + wet + rainy) before
+    # it will call a spot high-risk, plus the antecedent-rainfall nudge.
+    with st.expander("\U0001f50d Why this score? (model inputs)"):
+        # Built as a separate plain string first (not inlined in the f-string
+        # below) so this stays compatible with Python versions older than
+        # 3.12, which don't allow nested f-strings using the same quotes.
+        daily_list = r.get("recent_rain_daily") or []
+        daily_breakdown = ""
+        if daily_list:
+            daily_parts = [f"{v} mm" for v in daily_list]
+            daily_breakdown = " (daily: " + ", ".join(daily_parts) + ")"
+
+        st.markdown(f"""
+- **Computed slope:** `{r['slope']}°` — only adds points once it's over **35°** (extra points over **50°**)
+- **Current soil moisture:** `{r['soil_moisture']:.1f}%` — only adds points once it's over **75%**
+- **Current rain:** `{r['category']}` (`{r['rainfall_mm']} mm/hr` right now)
+- **Rainfall, past 3 days:** `{r['recent_rain_mm']} mm`{daily_breakdown}
+- **Live-conditions model score:** `{r['ml_score']}/100`
+- **Antecedent-rain adjustment:** `+{r['antecedent_bonus']}`
+- **Final score shown above:** `{score}/100`
+""")
+        st.caption(
+            "The underlying model was trained to require a steep slope AND "
+            "wet/rainy conditions at the same time. A historically active "
+            "landslide site can still show up as low risk here if you check "
+            "it on a dry day, the computed slope comes out gentler than the "
+            "real on-the-ground terrain (elevation data has ~90m resolution "
+            "and can miss narrow features), or the past-3-day rain wasn't "
+            "enough to trigger the adjustment above."
+        )
 
     # ---- Emergency contacts (only shown when risk is High or Very High) ----
     if score >= 30:
